@@ -1,0 +1,118 @@
+.header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  padding: 5px 0;
+  border-bottom: 1px solid rgba(74, 28, 28, 0.25);
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.item-input {
+  width: 300px;
+}
+
+img {
+  width: 150px;
+  margin: 20px 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+li {
+  padding: 5px 0;
+  border-bottom: 1px solid rgba(74, 28, 28, 0.25);
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+
+li p {
+  text-transform: capitalize;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+li p span {
+  font-size: 8px;
+  font-weight: bold;
+}
+
+.remove-button {
+  color: rgb(230, 85, 85);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  border: 1px solid rgb(230, 85, 85);
+  border-radius: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.remove-button:hover {
+  background: rgb(230, 85, 85);
+  color: #fff;
+}
+
+.success {
+  text-align: center;
+  color: rgb(100, 180, 100);
+  font-weight: 700;
+}
+
+ul {
+  margin: 0;
+}
+.grocery-list {
+  padding: 16px;
+}
+.product-info {
+  display: flex;
+  align-items: center;
+}
+
+.product-item .container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+button {
+  border: 0;
+  width: 24px;
+  height: 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+}
+
+button:hover {
+  background: #2d2d2d;
+  color: #fff;
+}
+
+.qty-btns {
+  display: flex;
+  gap: 6px;
+}
